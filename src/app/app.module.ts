@@ -10,11 +10,13 @@ import {LbdModule} from './lbd/lbd.module';
 import {AppComponent} from './app.component';
 
 import {HomeComponent} from './home/home.component';
+import {InterventionComponent} from './home/statistics/intervention.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    InterventionComponent
   ],
   imports: [
     BrowserModule,
