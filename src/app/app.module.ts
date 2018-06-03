@@ -6,9 +6,9 @@ import {RouterModule} from '@angular/router';
 
 import {AppRoutingModule} from './app.routing';
 import {LbdModule} from './lbd/lbd.module';
+import {SidebarModule} from './sidebar/sidebar.module';
 
 import {AppComponent} from './app.component';
-
 import {HomeComponent} from './home/home.component';
 import {InterventionComponent} from './home/statistics/intervention.component';
 
@@ -24,7 +24,8 @@ import {InterventionComponent} from './home/statistics/intervention.component';
     HttpClientModule,
     RouterModule,
     AppRoutingModule,
-    LbdModule
+    LbdModule,
+    SidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

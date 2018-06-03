@@ -1,0 +1,19 @@
+<div class="sidebar-wrapper">
+    <div class="logo">
+        <a href="http://cisteme.vinetos.fr" class="simple-text">
+            <div class="logo-img">
+                <img src="/assets/img/cisteme-white.png"/>
+            </div>
+            CISteme
+        </a>
+    </div>
+    <ul class="nav responsive-nav">
+
+        <li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{menuItem.class}}">
+            <a [routerLink]="[menuItem.path]">
+                <i class="{{menuItem.icon}}"></i>
+                <p>{{menuItem.title}}</p>
+            </a>
+        </li>
+    </ul>
+</div>
